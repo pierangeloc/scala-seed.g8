@@ -3,7 +3,7 @@ import Dependencies._
 lazy val commonSettings = inThisBuild(
     Seq(
       scalaVersion := "2.12.8",
-      addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.10.3"),
+      addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.10.3"),
       addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1")
     )
 )

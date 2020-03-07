@@ -3,13 +3,13 @@ import sbt._
 object Dependencies {
   val http4sVersion = "0.21.0-M6"
 
-  val zioVersion       = "1.0.0-RC17"
-  val zioCatsVersion   = "2.0.0.0-RC8"
+  val zioVersion       = "1.0.0-RC18"
+  val zioCatsVersion   = "2.0.0.0-RC11"
   val zioNioVersion    = "0.4.0"
   val zioMacrosVersion = "0.6.0"
 
-  val fs2Version        = "2.0.0"
-  val catsVersion       = "2.0.0"
+  val fs2Version        = "2.1.0"
+  val catsVersion       = "2.1.0"
   val catsEffectVersion = "2.0.0"
   val circeVersion      = "0.12.1"
 
